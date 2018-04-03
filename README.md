@@ -12,7 +12,7 @@
         let p = 1 for feature in observation : p *= p(feature given category)
     
     p(observation) = 
-        let p = 1 feature in observation: p *= p(feature)
+        let p = 1 for feature in observation: p *= p(feature)
     
     
     p(feature) = 
