@@ -29,7 +29,9 @@
     p(!feature) = 1 - p(feature)
     if (feature in not observation) => feature in not observation   
     
-## backlog 
+   
+## backlog 
+
 
  1) reporting a labeled observation to a naive bayes model instance
  2) invoking a model instance to get the probabilities of each category given an input unlabeled observation 
